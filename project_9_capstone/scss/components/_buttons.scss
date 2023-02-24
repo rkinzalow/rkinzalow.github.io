@@ -1,0 +1,16 @@
+
+.btn-rounded {
+    position: relative;
+    padding: .5rem .7rem;
+    font-weight: 600;
+    margin: 0;
+    border: .2rem solid rgba($white, 1);
+    background-color: $blue-light;
+    color: #fff;
+
+    &:hover {
+        background-color: $blue-dark;
+        color: $white;
+        border: solid .2rem $primary;
+    }
+}
