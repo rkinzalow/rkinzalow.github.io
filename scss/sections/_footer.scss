@@ -1,0 +1,19 @@
+.footer {
+    @include gradient;
+    padding: 0 0 5em;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.socail {
+    svg{
+        fill: $white;
+        height: 48px;
+        width: 48px;
+        margin: 1rem;
+    }
+    svg:hover {
+        fill: rgba($color: $secondary, $alpha: 1);
+        cursor: pointer;
+    }
+}

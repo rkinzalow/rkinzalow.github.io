@@ -1,0 +1,15 @@
+@import'custom';
+
+// import components
+@import'components/mixins';
+@import'components/animations';
+@import'components/buttons';
+@import'components/typography';
+
+// import sections
+@import'sections/navbar';
+@import'sections/jumbotron';
+@import'sections/portfolio';
+@import'sections/footer';
+@import'sections/about';
+@import'sections/contact';

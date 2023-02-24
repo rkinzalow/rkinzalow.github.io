@@ -1,0 +1,25 @@
+.navbar-brand{
+    color: $white;
+}
+.menu {
+    @include gradient;
+     li {
+        padding: 0 0.7rem;
+        a {
+           color: $white !important;
+           text-transform: capitalize;
+           font-weight: 600; 
+        }
+     }
+}
+.active {
+   color: $primary;
+   background-color: grey;
+   border-radius: 25px;
+}
+.nav-item {
+   a:hover{
+   background-color: rgba($color: #000000, $alpha: .3);
+   border-radius: 25px;
+   }
+}

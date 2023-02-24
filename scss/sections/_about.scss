@@ -1,0 +1,33 @@
+.about {
+    @include gradient;
+    height: 100%;
+    width: 100%;
+    color: white;
+
+    .heading-line::before {
+        content: "";
+        width: 10rem;
+        height: .1rem;
+        display: block;
+        background-color: $white;
+        margin: 0 auto;
+    }
+    .heading-line::after {
+        content: "";
+        width: 2rem;
+        height: .4rem;
+        display: block;
+        background-color: $white;
+        margin: 0 auto 1rem;
+    }
+}
+.profile {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    padding: .5rem 0 .5rem;
+    
+}
+.lh-lg{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,40 @@
+.mb-3 {
+    @include media-breakpoint-up(md) {
+        max-width: 60%;
+        margin: auto;
+     }
+    label {
+        font-size: 2rem;
+        color: $primary;
+    }
+    input {
+        border: none;
+        border-bottom: solid .2rem $primary;
+        border-radius: 0;
+        
+    }
+    input[type=text]{
+        outline: 0;
+    }
+    input::placeholder {
+        color: rgba($color: #000000, $alpha: .3);
+    }
+    input:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    textarea {
+        border: solid .2rem $primary;
+    }
+    textarea:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+.btn {
+    color: $white;
+}
+.btn:hover {
+    color:$white;
+    background-color: rgba($color: $primary, $alpha: .70);
+}

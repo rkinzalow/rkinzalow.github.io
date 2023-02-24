@@ -1,0 +1,66 @@
+.project {
+   display: flex;
+   justify-content: center;
+}
+.project-content > img {
+    margin-bottom: 1rem;
+    border-radius: 3%;
+}
+.html {
+    padding: .5rem 1rem .5rem;
+    background-color: #e44d26;
+    color: white;
+    border-radius: 20px;
+}
+.css {
+    padding: .5rem 1rem .5rem;
+    background-color: #264de4;
+    color: white;
+    border-radius: 20px;
+}
+.js {
+    padding: .5rem .7rem .5rem;
+    background-color: #d5b92c;
+    color: white;
+    border-radius: 20px;
+}
+.sass {
+    padding: .5rem 1rem .5rem;
+    background-color: #cd6799;
+    color: white;
+    border-radius: 20px;
+}
+@include media-breakpoint-up(md) {
+.html {
+    padding: .5rem 1rem .5rem;
+   
+}
+.css {
+    padding: .5rem 1rem .5rem;
+}
+.js {
+    padding: .5rem 1rem .5rem;
+
+}
+.sass {
+    padding: .5rem 1rem .5rem;
+
+}
+}
+@include media-breakpoint-up(lg) {
+    .html {
+        padding: .5rem 2rem .5rem;
+       
+    }
+    .css {
+        padding: .5rem 2rem .5rem;
+    }
+    .js {
+        padding: .5rem 1.5rem .5rem;
+    
+    }
+    .sass {
+        padding: .5rem 2rem .5rem;
+    
+    }
+    }
