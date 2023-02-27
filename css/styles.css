@@ -11673,6 +11673,9 @@ textarea.form-control-lg {
 .navbar-brand {
   color: #fff;
 }
+.navbar-brand:hover {
+  color: #fff;
+}
 
 .menu {
   background: linear-gradient(to right, rgba(59, 142, 165, 0.95), rgba(213, 255, 217, 0.95));
@@ -11693,6 +11696,10 @@ textarea.form-control-lg {
 }
 
 .nav-item a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+.nav-item a:focus {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 25px;
 }
@@ -11718,28 +11725,28 @@ textarea.form-control-lg {
   padding: 0.5rem 1rem 0.5rem;
   background-color: #e44d26;
   color: white;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .css {
   padding: 0.5rem 1rem 0.5rem;
   background-color: #264de4;
   color: white;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .js {
   padding: 0.5rem 0.7rem 0.5rem;
   background-color: #d5b92c;
   color: white;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .sass {
   padding: 0.5rem 1rem 0.5rem;
   background-color: #cd6799;
   color: white;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 @media (min-width: 768px) {
