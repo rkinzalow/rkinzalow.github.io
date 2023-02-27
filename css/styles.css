@@ -11618,7 +11618,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 .btn-rounded:hover {
-  background-color: #222a68;
+  background-color: rgba(59, 142, 165, 0.7);
   color: #fff;
   border: solid 0.2rem #3b8ea5;
 }
@@ -11702,6 +11702,10 @@ textarea.form-control-lg {
 .nav-item a:focus {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 25px;
+}
+
+.nav-link {
+  transition: none;
 }
 
 .jumbotron {
