@@ -11673,6 +11673,9 @@ textarea.form-control-lg {
 .navbar-brand {
   color: #fff;
 }
+.navbar-brand:visited {
+  color: #fff;
+}
 .navbar-brand:hover {
   color: #fff;
 }
@@ -11689,21 +11692,29 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 
-.active {
-  color: #3b8ea5;
-  background-color: grey;
-  border-radius: 25px;
-}
-
 .nav-item a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 25px;
+  background-color: none;
+  color: grey;
 }
 .nav-item a:focus {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 25px;
+  background-color: none;
+  color: grey;
 }
 
+@media (min-width: 768px) {
+  .active {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+  }
+  .nav-item a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+  }
+  .nav-item a:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+  }
+}
 .nav-link {
   transition: none;
 }
