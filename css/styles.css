@@ -11609,13 +11609,17 @@ textarea.form-control-lg {
   }
 }
 .btn-rounded {
+  display: flex;
   position: relative;
-  padding: 0.5rem 0.7rem;
+  padding: 0.7rem 0.7rem;
   font-weight: 600;
   margin: 0;
   border: 0.2rem solid white;
   background-color: #3b8ea5;
   color: #fff;
+  text-align: center;
+  justify-content: center;
+  max-width: 7rem;
 }
 .btn-rounded:hover {
   background-color: rgba(59, 142, 165, 0.7);
@@ -11762,6 +11766,12 @@ textarea.form-control-lg {
   background-color: #cd6799;
   color: white;
   border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  border: none !important;
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {
