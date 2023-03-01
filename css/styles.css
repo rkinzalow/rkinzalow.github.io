@@ -11697,11 +11697,11 @@ textarea.form-control-lg {
 }
 
 .nav-item a:hover {
-  background-color: none;
+  background-color: transparent;
   color: grey;
 }
 .nav-item a:focus {
-  background-color: none;
+  background-color: transparent;
   color: grey;
 }
 
@@ -11720,7 +11720,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link {
-  transition: none;
+  transition-property: none;
 }
 
 .jumbotron {
@@ -11810,13 +11810,13 @@ a {
   color: white;
 }
 
-.socail svg {
+.social svg {
   fill: #fff;
   height: 48px;
   width: 48px;
   margin: 1rem;
 }
-.socail svg:hover {
+.social svg:hover {
   fill: #d5ffd9;
   cursor: pointer;
 }
